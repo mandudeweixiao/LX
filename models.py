@@ -13,3 +13,5 @@ class Student(models.Model):
     sinfo=models.CharField(max_length=100)
     isdelete=models.BooleanField()
     sgrade=models.ForeignKey('Grade')
+class SKT(models.Model):
+    sname=models.CharField(max_length=20)
